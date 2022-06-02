@@ -16,7 +16,7 @@
     // width: 0px;
     display: none;
     &:checked + .dark-mode--btn::after {
-      content: url(../../../assets/img/moon-line.svg);
+      content: url(../../../assets/img/moon-line.png);
       background-color: #1f257f;
       transform: translateX(50px) rotate(360deg);
       @include breakpoints-max(small) {
@@ -37,7 +37,7 @@
     position: relative;
     cursor: pointer;
     &::after {
-      content: url(../../../assets/img/sun-line.svg);
+      content: url(../../../assets/img/sun-line.png);
       width: 40px;
       height: 40px;
       background-color: #e03c3c;
